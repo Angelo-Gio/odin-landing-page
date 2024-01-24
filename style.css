@@ -34,6 +34,7 @@ body
     p
  */
 
+ /* General Styling Start */
  body{
     min-height: 100vh;
     font-family:'Roboto', sans-serif;
@@ -46,6 +47,23 @@ body
  .header, .top, .footer{
     background-color: #1f2937;
  }
+
+ .links a, .b-text, .footer p{
+    color: #E5E7EB;
+    font-size: 18px;
+ }
+
+ .header-text, .a-text, button{
+    color: #f9faf8;
+ }
+
+ button{
+    background-color: #3882F6  ;
+    border-radius: 8px;
+    padding: 5px 10px 5px;
+    width: 100px;
+ }
+/* General Styling End */
 
  /* Header Styling Start */
  .header{
@@ -64,7 +82,6 @@ body
     padding-left: 10px;
     font-size: 24px;
     text-align: center;
-    color: #f9faf8;
  }
 
 .right-header{
@@ -83,8 +100,6 @@ body
 }
 .links a{
     text-decoration: none;
-    color: #E5E7EB;
-    font-size: 18px;
 }
 /* Header Styling End */
 
@@ -92,4 +107,24 @@ body
 .top{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
+
+.left-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.a-text{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.b-text{
+    padding-bottom: 8px;
+}
+.top img{
+    min-width: 200px;
+    flex-shrink: 1;
+}
+/* Top Styling End */
