@@ -39,14 +39,16 @@ body
  */
 
  /* General Styling Start */
+
  html {
     box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+}
 
- body{
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
     min-height: 100vh;
     font-family:'Roboto', sans-serif;
  }
@@ -77,9 +79,11 @@ body
  button, .card{
     background-color: #3882F6;
  }
+
 /* General Styling End */
 
  /* Header Styling Start */
+
  .header{
     display: flex;
     justify-content: space-between;
@@ -112,12 +116,15 @@ body
 .links li{
     list-style: none;
 }
+
 .links a{
     text-decoration: none;
 }
+
 /* Header Styling End */
 
 /* Top Styling Start */
+
 .top{
     display: flex;
     justify-content: space-between;
@@ -137,13 +144,16 @@ body
 .b-text{
     padding-bottom: 8px;
 }
+
 .top img{
     min-width: 200px;
     flex-shrink: 1;
 }
+
 /* Top Styling End */
 
 /* Second Styling Start */
+
 .second{
     display: flex;
     flex-direction: column;
@@ -175,9 +185,11 @@ body
     border-radius: 8px;
     padding: 16px;
 }
+
 /* Second Styling End */
 
 /* Third Styling Start */
+
 .third{
     display: flex;
     background-color: #E5E7EB;
@@ -196,9 +208,11 @@ body
 .quote-aut{
     margin-left: auto;
 }
+
 /* Third Styling End */
 
 /* Fourth Styling Start */
+
 .card{
     display: flex;
     padding: 32px 128px 32px;
@@ -216,9 +230,17 @@ body
     font-weight: 400;
 }
 
-
 .button2{
     border-style: solid;
     border-color: white;
 }
+
 /* Fourth Styling End */
+
+/* Footer Styling Start */
+
+.footer{
+    text-align: center;
+}
+
+/* Footer Styling End */
