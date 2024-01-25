@@ -36,6 +36,13 @@ body
  */
 
  /* General Styling Start */
+ html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
  body{
     min-height: 100vh;
     font-family:'Roboto', sans-serif;
@@ -131,14 +138,29 @@ body
 /* Top Styling End */
 
 /* Second Styling Start */
-.title-s{
+.second{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+}
+
+.title-s{
     padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .text-pics{
     display: flex;
-    justify-content: space-between;
+    justify-content:center ;
+    align-items:center;
+    flex-wrap: wrap;   
+}
+
+.second-info{
+    width: 200px;
+    margin: 30px;
 }
 
 .text-pics img{
@@ -147,3 +169,4 @@ body
     border-radius: 8px;
     padding: 16px;
 }
+/* Second Styling End */
